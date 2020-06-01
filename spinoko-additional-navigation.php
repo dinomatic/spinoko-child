@@ -37,7 +37,7 @@ if ( ! function_exists( 'spinoko_display_additional_nav_menu' ) ) {
 		wp_nav_menu( array(
 			'theme_location' => 'menu-additional',
 			'menu_id'        => 'additional-menu',
-			'menu_class'     => 'additional-menu flex items-center justify-end px-4',
+			'menu_class'     => 'additional-menu flex items-center justify-end sp-px-4',
 		) );
 		?>
 
